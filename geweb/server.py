@@ -8,7 +8,7 @@ except AttributeError:
 import gevent
 from gevent import monkey; monkey.patch_all()
 from gevent.pool import Pool
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 from setproctitle import setproctitle
 import inspect
 import traceback
